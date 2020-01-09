@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+
 public class SecondActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,5 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         Toast.makeText(SecondActivity.this,ages, Toast.LENGTH_LONG).show();
         String ides = getIntent().getStringExtra("Id");
         Toast.makeText(SecondActivity.this,ides, Toast.LENGTH_LONG).show();
+
+
     }
 }
